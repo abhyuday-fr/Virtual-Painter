@@ -35,8 +35,6 @@ cv::Point getContours(cv::Mat imgDil) {
 
 	for (int i = 0; i < contours.size(); i++) {
 		int area = contourArea(contours[i]);
-		std::cout << area;
-
 		if (area > 1000) {
 			float peri = arcLength(contours[i], true);
 			approxPolyDP(contours[i], conPoly[i], 0.02 * peri, true);//to show the vertex points
