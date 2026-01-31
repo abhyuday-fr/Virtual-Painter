@@ -1,3 +1,20 @@
+/*
+
+Just run this file to obtain the HSV values of the colors you want to detect
+
+You are advised to detect each color one by one and separately
+
+Copy the HSV values from the console
+
+Thank You for cloning this repo and using my project :)
+
+*/
+
+
+
+
+
+
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>

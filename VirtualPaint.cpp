@@ -8,10 +8,14 @@
 cv::Mat img;
 std::vector<std::vector<int>> newPoints;
 
+
+//Run the ColorPicker.cpp for selecting the colors and their HSV values
 std::vector<std::vector<int>> myColors{ {116,94,109,128,141,198},//Purple
 	                          {64,74,59,85,182,127}, //Green
                              };
 
+
+//BGR format color values
 std::vector<cv::Scalar> myColorValues{ {255,0,255}, //Purple
 	                          {0,255,0}, //Green
 };
